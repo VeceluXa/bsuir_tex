@@ -79,7 +79,6 @@ RUN tlmgr install \
   makecell \
   multirow \
   was \
-  sistyle \
   xcolor \
   listings \
   ulem \
@@ -100,7 +99,8 @@ RUN tlmgr install \
   cleveref \
   float \ 
   pgf \ 
-  mathspec
+  mathspec \
+  siunitx
 
 
 RUN apk add --no-cache msttcorefonts-installer 
