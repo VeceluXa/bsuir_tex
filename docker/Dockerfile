@@ -4,7 +4,7 @@ FROM frolvlad/alpine-glibc:alpine-3.8_glibc-2.28
 COPY texlive.profile texlive.profile
 
 # set up packages
-## &&
+## &&1
 # Remove unnecessary archieves
 RUN apk add --no-cache wget perl xz 
 
